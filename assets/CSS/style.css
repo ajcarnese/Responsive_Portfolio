@@ -1,0 +1,225 @@
+html {
+	/*background: url("assets/images/escheresque.png");*/
+}
+
+header {
+		margin-top: 0px;
+    padding: 20px 20px 35px 20px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom-style: double;
+    width: 103%;
+}
+body {
+	
+	border-color: #dddddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+    height: 650px;
+/*    padding: 0px 35px;*/
+}
+
+
+h1 {
+ 	position: absolute;
+   /* padding: 20px;*/
+    top: 26px;
+    margin: 0 auto;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+#nav-bar {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #777777;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+    line-height: 1.4;
+
+}
+
+#duckie {
+	float: left;
+	margin-right: 11px;
+}
+
+#about-me {
+	width: 60%;
+    float: left;
+    position: relative;
+    top: 50px;
+    border-style: groove;
+    background-color: white;
+
+}
+#about-tony {
+	position: relative;
+	width: 192px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#bio {
+	font-size: 18px;
+	color: #777777;
+	}
+
+#Connect-Me{
+	float: right;
+	position: relative;
+    width: 365px;
+    text-align: center;
+    border-style: groove;
+    top: 38px;
+    height: 200px;
+    left: 65px;
+    background-color: white;
+}
+
+h4 {
+	text-align: center;
+    font-style: italic;
+    position: fixed;
+    margin-bottom: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 511px;
+    width: 960px;
+    border: groove;
+    padding: 30px;
+    background-color: #666666;
+    color: white;
+    font-size: 10px;
+}
+
+#contact_form {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: white;
+    line-height: 3;
+}
+#contact_me {
+    width: 60%;
+    position: relative;
+    top: 50px;
+    height: 375px;
+    margin: 5px;
+    border-style: groove;
+    background-color: white;
+}
+input {
+    width: 300px;
+    font-size: 18px;
+}
+
+#contact_title {
+color: #4aaaa5;
+}
+
+#Connect-Me2 {
+    float: right;
+    position: fixed;
+    width: 365px;
+    text-align: center;
+    border-style: groove;
+    top: 121px;
+    height: 200px;
+    left: 670px;
+    background-color: white;
+}
+
+.floated_img {
+/*    float: left;*/
+display: inline-block;
+  width: 200px;
+  height:200px;
+  zoom: 1;         /* for IE */
+  display*:inline; /* for IE */
+}
+
+.desc {
+    text-align: center;
+    background-color: #4aaaa5;
+    display: block;
+    position: fixed;
+    width: inherit
+}
+
+#port_foot {
+    text-align: center;
+    font-style: italic;
+    position: fixed;
+    margin-bottom: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 670px;
+    width: 960px;
+    border: groove;
+    padding: 30px;
+    background-color: #666666;
+    color: white;
+    font-size: 10px;
+}
+
+#collage {
+    width: 60%;
+    float: left;
+    position: relative;
+    top: 50px;
+    border-style: groove;
+    background-color: white;
+
+}
+
+.button{
+    display: block;
+    color: white;
+    background-color: teal;
+    width: 50px;
+    padding: 10px;
+    border-style: double;
+    text-align: center;
+}
+.button:hover{
+    background-color:yellow;
+    color:black;
+}
+.button:active{
+    background-color: red;
+    color: red;
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 780px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        position: static;
+    }
+}
