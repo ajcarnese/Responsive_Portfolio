@@ -223,15 +223,27 @@ display: inline-block;
 }
 
 @media only screen and (max-width: 980px) {
+ /*For all pages:*/
  header {width: 95%;}
- body { width: 100%}
-  #duckie {width: 50%}
-  #bio {float: left}
+
+ body {width: 100%}
+
+ #duckie {width: 50%}
+ 
+ #bio {float: left}
+
+  /*for contact page*/
+#Connect-Me2 { 
+                position: absolute;
+                /*left: 377px;*/
+                top: 0px;
+               /* bottom: 366px;*/}
 }
 
 
 
 @media only screen and (max-width: 768px) {
+/*    for all pages*/
     #bio {float: none;}
 
     #about-me {width: 100%}
@@ -239,13 +251,24 @@ display: inline-block;
     #Connect-Me { float: left;
                 left: 0px;
                 top: 55px;
-                width: 100%;}
+                width: 100%;
+            }
+    /*for contact page*/
+    #Connect-Me2 { float: none;
+                   position: relative;
+                    top: 25px;
+                    left: 0;
+                width: 100%;
+            }
+    #contact_me {
+                width: 80%
+                padding:10px;
+                    }
        
 }
 
-
-
 @media only screen and (max-width: 640px) {
+    /*for all pages*/
     #duckie {width:100%}
     header {background-color: #4aaaa5;}
     #nav-bar {    
@@ -254,4 +277,19 @@ display: inline-block;
         background-color: white;
         width: 100%;
         padding:9px;}
+
+    /*for contact page*/
+    #contact_me {
+        width: 100%;
+        margin: 0px;
+        top: 80px;
+            }
+    #Connect-me2 {
+    position: relative;
+    top: 15px;
+    width: 100%;
+    left: 0px;
+    text-align: left;
+    padding-left: 15px;
+    }
 }
