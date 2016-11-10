@@ -238,6 +238,12 @@ display: inline-block;
                 /*left: 377px;*/
                 top: 0px;
                /* bottom: 366px;*/}
+
+ /*for portfolio*/
+ #port_foot { position: relative;
+                top: 0px;
+                 }
+    .desc { position: static; }
 }
 
 
