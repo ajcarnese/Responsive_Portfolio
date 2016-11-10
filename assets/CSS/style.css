@@ -101,7 +101,7 @@ p {
 }
 
 h4 {
-	text-align: center;
+/*	text-align: center;
     font-style: italic;
     position: fixed;
     margin-bottom: 0px;
@@ -112,7 +112,19 @@ h4 {
     padding: 30px;
     background-color: #666666;
     color: white;
-    font-size: 10px;
+    font-size: 10px;*/
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    top: 58px;
+    width: 107%;
 }
 
 #contact_form {
@@ -211,15 +223,35 @@ display: inline-block;
 }
 
 @media only screen and (max-width: 980px) {
-
+ header {width: 95%;}
+ body { width: 100%}
+  #duckie {width: 50%}
+  #bio {float: left}
 }
 
-@media only screen and (max-width: 780px) {
 
+
+@media only screen and (max-width: 768px) {
+    #bio {float: none;}
+
+    #about-me {width: 100%}
+
+    #Connect-Me { float: left;
+                left: 0px;
+                top: 55px;
+                width: 100%;}
+       
 }
+
+
 
 @media only screen and (max-width: 640px) {
-    h1 {
-        position: static;
-    }
+    #duckie {width:100%}
+    header {background-color: #4aaaa5;}
+    #nav-bar {    
+        position: relative;
+        top: 37px;
+        background-color: white;
+        width: 100%;
+        padding:9px;}
 }
