@@ -242,8 +242,10 @@ display: inline-block;
  /*for portfolio*/
  #port_foot { position: relative;
                 top: 0px;
+                width: 100%;
                  }
-    .desc { position: static; }
+    .desc { position: relative;
+            bottom: 55px; }
 }
 
 
@@ -270,7 +272,16 @@ display: inline-block;
                 width: 80%
                 padding:10px;
                     }
-       
+       /*for portfolio*/
+    #collage {
+        float: none;
+        top: 20px;
+        width: 100%;
+        text-align: center;
+       }
+    #port_foot {
+        top: 70px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -298,4 +309,9 @@ display: inline-block;
     text-align: left;
     padding-left: 15px;
     }
+/*for portfolio*/
+   #collage {
+        top: 50px;
+      }       
+
 }
